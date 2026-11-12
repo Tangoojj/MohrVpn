@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MohrVpn</string>
+    <string name="brand_title">MohrVpn</string>
+    <string name="version_label">نسخه ۲</string>
+    <string name="status_connecting">در حال اتصال…</string>
+    <string name="status_connected">وصل شد</string>
+    <string name="vpn_notification_channel">وضعیت اتصال MohrVpn</string>
+    <string name="vpn_notification_title">MohrVpn</string>
+    <string name="vpn_notification_disconnect">قطع اتصال</string>
+</resources>

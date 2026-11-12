@@ -1,0 +1,7 @@
+MohrVpn نسخه ۱ — third-party components
+
+Xray-core v26.11.9 (MPL-2.0) — https://github.com/XTLS/Xray-core
+  arm64-v8a / x86_64: official release binaries; armeabi-v7a: built from tag v26.11.9 with the project's Android build flags.
+  Unmodified; source available at the URL above.
+hev-socks5-tunnel 2.19.3 (MIT) — https://github.com/heiher/hev-socks5-tunnel (built from source; bundles lwIP (BSD), libyaml (MIT), hev-task-system (MIT))
+Vazirmatn (SIL OFL 1.1), Audiowide (SIL OFL 1.1)

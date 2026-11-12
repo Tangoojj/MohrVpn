@@ -1,0 +1,21 @@
+MohrVpn نسخه ۱.۲ — third-party components
+
+Xray-core v26.11.9 (MPL-2.0) — https://github.com/XTLS/Xray-core
+  arm64-v8a / x86_64: official release binaries; armeabi-v7a: built from tag v26.11.9 with the project's Android build flags.
+hev-socks5-tunnel 2.19.3 (MIT) — https://github.com/heiher/hev-socks5-tunnel (built from source; bundles lwIP (BSD), libyaml (MIT), hev-task-system (MIT))
+Tor 0.4.9.16 (BSD-3-Clause) and lyrebird 0.10.0 (BSD-2-Clause, includes the WebTunnel transport)
+  — Tor Project tor-expert-bundle-android 16.0.2 (unmodified binaries), https://www.torproject.org
+  (bundles OpenSSL, libevent, zlib, zstd; licenses below, taken from the 16.0.2 bundle's docs/)
+  This tor build reports "covered by the GNU General Public License" (built with GPL-licensed options),
+  so the tor binary as distributed is under GPL-3.0 (license text: the GPL-3.0 file below).
+  Corresponding source: https://dist.torproject.org/ (tor-0.4.9.16) and tor-browser-build tag for 16.0.2.
+Public WebTunnel bridge lines — Tor Project bridge data (collected by OnionHop Bridges Collector)
+WARP core 1.6.0 (GNU AGPL-3.0-only) with Cloudflare quiche (BSD-2-Clause) and BoringSSL
+  — an open-source third-party WARP client core, built unmodified from its published source; it is an
+  independent project and does not endorse MohrVpn. The complete corresponding source is distributed
+  with this APK, and anyone who receives this app may request it.
+Psiphon tunnel-core (GNU GPL-3.0) — https://github.com/Psiphon-Labs/psiphon-tunnel-core (official ca.psiphon.aar)
+  Psiphon public default client identifiers and embedded server entries are Psiphon network data.
+Vazirmatn (SIL OFL 1.1), Audiowide (SIL OFL 1.1)
+
+Because GPL-3.0 and AGPL-3.0 components are distributed inside this APK, distributing the APK carries their source-availability obligations.
